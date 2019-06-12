@@ -19,7 +19,7 @@ end
 
 def now_serving(arr) 
   if arr.length > 0
-    return "Currently serving " + arr[0]
+    puts "Currently serving " + arr[0]
   end 
   puts "There is nobody waiting to be served!"
 end 
