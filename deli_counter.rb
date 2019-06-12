@@ -1,7 +1,8 @@
 # Write your code here.
 def line(katz_deli) 
   if katz_deli.length > 0 
-    katz_deli.each_with_index()
+    katz_deli.each_with_index do |name, i|
+    end 
      "The line is currently: " + name_list
   end 
   puts "The line is currently empty."
