@@ -5,7 +5,7 @@ def line(arr)
     arr.each_with_index do |name, i|
       name_list = " " + i.to_s + ". " + name
     end 
-    return "The line is currently: " + name_list
+    puts "The line is currently: " + name_list
   end 
   puts "The line is currently empty."
 end 
