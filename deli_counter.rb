@@ -2,7 +2,7 @@
 def line(katz_deli) 
   if katz_deli.length > 0 
     katz_deli.each_with_index do |name, i|
-      arr = 
+      i + " " + name 
     end 
      "The line is currently: " + name_list
   end 
