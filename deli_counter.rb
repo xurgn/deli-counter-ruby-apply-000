@@ -1,5 +1,6 @@
 # Write your code here.
 def line(katz_deli) 
+  name_list = ""
   if katz_deli.length > 0 
     katz_deli.each_with_index do |name, i|
       name_list = " " + i + ". " + name +
