@@ -6,8 +6,9 @@ def line(arr)
       name_list = " " + i.to_s + ". " + name
     end 
     puts "The line is currently: " + name_list
+  else 
+    puts "The line is currently empty."
   end 
-  puts "The line is currently empty."
 end 
 
 
