@@ -1,8 +1,8 @@
 # Write your code here.
-def line(katz_deli) 
+def line(arr) 
   name_list = ""
-  if katz_deli.length > 0 
-    katz_deli.each_with_index do |name, i|
+  if arr.length > 0 
+    arr.each_with_index do |name, i|
       name_list = " " + i.to_s + ". " + name
     end 
     return "The line is currently: " + name_list
