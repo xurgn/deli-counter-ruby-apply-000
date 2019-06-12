@@ -3,7 +3,7 @@ def line(arr)
   name_list = ""
   if arr.length > 0 
     arr.each_with_index do |name, i|
-      name_list += " " + i.to_s + ". " + name
+      name_list += " " + (i+1).to_s + ". " + name
     end 
     puts "The line is currently: " + name_list
   else 
