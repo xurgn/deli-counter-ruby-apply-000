@@ -13,7 +13,7 @@ end
 
 def take_a_number(arr, name) 
   arr = arr << name
-  puts "Welcome, " + name +" You are number " + arr.length + " in line."
+  puts "Welcome, " + name +" You are number " + arr.length.to_s + " in line."
 end 
 
 def now_serving(arr) 
