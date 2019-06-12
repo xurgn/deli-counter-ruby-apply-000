@@ -3,7 +3,7 @@ def line(katz_deli)
   name_list = ""
   if katz_deli.length > 0 
     katz_deli.each_with_index do |name, i|
-      name_list = " " + i + ". " + name
+      name_list = " " + i.to_s + ". " + name
     end 
     return "The line is currently: " + name_list
   end 
