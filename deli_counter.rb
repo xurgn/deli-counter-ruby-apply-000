@@ -5,7 +5,7 @@ def line(katz_deli)
     katz_deli.each_with_index do |name, i|
       name_list = " " + i + ". " + name +
     end 
-    puts "The line is currently: " + name_list
+    return "The line is currently: " + name_list
   end 
   puts "The line is currently empty."
 end 
