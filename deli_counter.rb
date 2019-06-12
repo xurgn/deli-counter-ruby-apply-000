@@ -1,7 +1,8 @@
 # Write your code here.
 def line(katz_deli) 
   if katz_deli.length > 0 
-    puts "The line is currently: 1. Ada 2. Grace 3. Kent"
+    name_list.each
+     "The line is currently: " + name_list
   end 
   puts "The line is currently empty."
 end 
